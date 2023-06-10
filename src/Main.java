@@ -35,7 +35,6 @@ public class Main {
         Y y1 = new Y(scanner.nextInt());
         Y.saveY(y1);
         Y y_upload = Y.uploadY();
-        assert y_upload != null;
         System.out.println(y_upload.getY());
     }
 }
